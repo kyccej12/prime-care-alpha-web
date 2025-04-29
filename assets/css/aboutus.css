@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  .resources {
+      height: 45vh;
+  }
+  
+  .container article {
+    width: 20%;
+    padding: 20px;
+    position: relative;
+  }
+  
+  article a {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  @media (max-width: 900px) {
+    .container article {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container article {
+      width: 100%;
+    }
+  }
+  img {
+      border-radius: 20px;
+  }
+  p {
+      margin-top: 15px;
+      font-size: 1.3rem;
+      line-height: 1;
+      color: #1a4611;
+  }
+  .service-btn-box {
+    padding: 10px 10px;
+    background-color: #c5992c;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    width: 240px;
+    text-align: center;
+  }
+  .service-btn-box .service-btn {
+    color: #fff;
+    font-size: 20px;
+  }
+  .service-btn-box:hover {
+      background-color: green;
+  }
+  .carousel-item {
+    height: 55vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .logo-home {
+      z-index: 99999;
+  }
+  h1 {
+      font-style: italic;
+      color: #1a4611;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .label {
+    color: #fff;
+  }
+  .carousel-indicators {
+    color: #3b3a3f;
+  }
+  /* .carousel-indicators .active{
+    background-color: #1a4611;
+  } */
+  .icon {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .icon a {
+    font-size: 1rem;
+  }
+  span {
+    position: relative;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 5px;
+  }
+  .tele {
+    position: absolute;
+    font-size: .7rem;
+  }
+  .locator {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 90px;
+  }
+  .telephone {
+    font-size: 70px;
+  } 
+  .locate {
+    margin-top: 90px;
+    font-size: 70px;
+  }
+  .carousel-caption {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+  }
+  
+  @media (max-width: 576px) {
+      .carousel-caption h5 {
+          font-size: 14px;
+          font-weight: 500 !important;
+      }
+  
+      .carousel-caption h1 {
+          font-size: 30px;
+          font-weight: 600 !important;
+      }
+  }

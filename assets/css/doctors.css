@@ -1,0 +1,227 @@
+  .d-inline-block {
+  width: 100%;
+  
+}
+.navbar {
+  padding: 0;
+  width: 100%;
+}
+.navbar ul {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  background-color: #e38c25;
+}
+.navbar > ul > li {
+  border-radius: 20px;
+  width: 20%;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #ffffff;
+  border-color: #cfba00;
+}
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+.navbar .dropdown ul li a{
+  color: #fff;
+}
+.navbar ul a {
+  padding: 13px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+  color: #ffffff;
+  border: none;
+}
+.navbar ul a .active{
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: none;
+  color: #ffffff;
+  border: none;
+}
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #1977cc;
+}
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+/* Doctor Bottom PArt */
+
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctors {
+  background: #fff;
+  min-height: 63vh;
+}
+.doctors .member {
+  position: relative;
+  margin-top: 35px;
+  box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+  padding: 30px;
+  border-radius: 10px;
+}
+.doctors .member .pic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+}
+.doctors .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+.doctors .member:hover img {
+  transform: scale(1.1);
+}
+.doctors .member .member-info {
+  padding-left: 30px;
+}
+.doctors .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #2c4964;
+}
+.doctors .member span {
+  display: block;
+  font-size: 13px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+  font-style: italic;
+}
+.doctors .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #c5992c;
+  bottom: 0;
+  left: 0;
+}
+.doctors .member p {
+  margin: 10px 0 0 0;
+  font-size: 13px;
+}
+.doctors .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.doctors .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #c5992c;
+}
+.doctors .member .social a i {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 2px;
+}
+.doctors .member .social a:hover {
+  background: green;
+}
+.doctors .member .social a + a {
+  margin-left: 8px;
+}
+
+/******/
+@media (max-width: 900px) {
+  .container article {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container article {
+    width: 100%;
+  }
+}
+
+
+.service-btn-box {
+  margin-top: 35px;
+  padding: 5px 5px;
+  background-color: #c5992c;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: none;
+  width: 240px;
+  text-align: center;
+
+}
+.service-btn-box .service-btn {
+  color: #fff;
+  font-size: 16px;
+}
+.service-btn-box:hover {
+    background-color: green;
+}
+.contacts {
+  position: absolute;
+  z-index: 999;
+  right: 30px;
+  width: 60%;
+  margin-top: -40px;
+}
+.contact-h {
+  display: block;
+  text-align: center;
+}
+.contact-h p {
+  line-height: 0.1px;
+  color: #fff;
+  font-size: small;
+}
+.contact-b p {
+  line-height: 0.1px;
+  color: #000;
+  font-size: small;
+}
+.resources {
+  overflow: hidden;
+}

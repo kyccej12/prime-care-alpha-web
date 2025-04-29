@@ -1,0 +1,135 @@
+
+* {
+box-sizing: border-box;
+}
+.carousel-inner {
+height: 31vh;
+min-height: 190px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.carousel-caption {
+display: flex;
+align-items: center;
+text-align: center;
+padding: 60px 40px;
+}
+.carousel-caption-1 {
+display: flex;
+align-items: center;
+text-align: center;
+padding: 60px 40px;
+}
+p {
+font-weight: bold;
+color: #1a4611;
+}
+h1, h4{
+color: aliceblue;
+text-shadow: 3px 3px 4px #000000;
+font-family: "Gill Sans", sans-serif;;
+}
+h3 {
+font-family: "Gill Sans", sans-serif;;
+}
+.container article {
+width: 25%;
+padding: 30px;
+margin-top: 10px;
+position: relative;
+}
+
+article a {
+position: absolute;
+bottom: 0;
+}
+.partner-logo img {
+width: 140px;
+}
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+max-width: 100%;
+}
+.bg-orange {
+background-color: #c4982b;
+height: 176px;
+overflow: hidden;
+bottom: 0;
+}
+.img-contain-1 {
+bottom: 0;
+right: 0;
+width: 130px;
+position: fixed;
+}
+.service-btn-box {
+display: inline-block;
+padding: 5px 5px;
+background-color: #fff;
+border-radius: 10px;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+border: none;
+width: 100px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.service-btn-box .service-btn {
+color: green;
+font-size: 15px;
+}
+.assess-btn{
+display: block;
+text-align: center;
+cursor: pointer;
+padding: 3px;
+width: 290px;
+background-color: #c4982b;
+border-radius: 10px;
+border: none;
+text-align: center;
+color: #fff;
+font-weight: bold;
+font-size: 13px;
+margin: auto;
+margin-top: 5px;
+}
+.assess-btn:hover {
+background-color: #1a4611;
+color: #fff;
+}
+.carousel-caption {
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+}
+
+.logo-home a{
+    z-index: 999;
+    cursor: pointer;
+    font-size: larger;
+
+}
+.form-italic {
+    font-size: 13px;
+}
+.dole {
+    color: #fff;
+}
+article img {
+    width: 50px;
+}
+
+button .clinic {
+    border: none;
+    background-color: none;
+}
